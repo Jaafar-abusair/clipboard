@@ -10,4 +10,5 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 
 ## Your Explanation Here
 - First moving check if event in undefined to the top, so no need for other checking at the bottom, we cna immidiatly return TRIVIAL_PARTITION_KEY.
-- 
+- Then we extract createHash to seperate function to since we using it multiple places and for easy to replace in the future, also to support dynamic tests 
+- Clening the if conditions
